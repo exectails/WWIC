@@ -28,6 +28,7 @@
 		/// </summary>
 		private void InitializeComponent()
 		{
+			var resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmMain));
 			this.LblDate = new Label();
 			this.LblDrop = new Label();
 			this.TxtDate = new TextBox();
@@ -78,6 +79,7 @@
 			this.Controls.Add(this.LblDate);
 			this.Controls.Add(this.TxtDate);
 			this.Controls.Add(this.LblDrop);
+			this.Icon = (Icon)resources.GetObject("$this.Icon");
 			this.MaximizeBox = false;
 			this.Name = "FrmMain";
 			this.StartPosition = FormStartPosition.CenterScreen;
