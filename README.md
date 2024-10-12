@@ -6,6 +6,8 @@ Windows executable or library was compiled. It does this by reading
 the PE header's `TimeDateStamp` field. Nothing more, nothing less,
 just wanted a quick way to read this value.
 
+![](example.png)
+
 Links
 -----------------------------------------------------------------------------
 - https://github.com/exectails/WWIC
